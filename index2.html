@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image" href="images/favicn.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <!-- ------fontawesome------- -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- ------Google Fonts------- -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Charm&display=swap">
+
+      <style>
+        body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        overflow: hidden; /* Disable scrolling */
+    }
+
+        .background-img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1; /* Ensures the image is behind other content */
+    }
+
+    .thankyou{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    .text {
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        font-size: 140px;
+        font-family: 'Charm', cursive;
+        font-weight: 700 !important;
+    }
+     </style>
+</head>
+<body>
+    
+
+    <header id="home" class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img decoding="async" src="images/Whiteland-logo.png" class="img-fluid" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav text-center ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"> Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#highlight">Highlight</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#floor">floor Plan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#amenities">Amenities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactus">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="main-btn" href="tel:+917840051005" title="Call me"><i
+                                    class="fa-solid fa-phone me-1 fa-shake"></i>Call Me </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="thankyou">
+        <img src="images/whiteland-bg.jpg" class="img-fluid background-img " alt="">
+        <div class="text">Thank You </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+   <!-- <script src="javascript.js"></script> -->
+</body>
+</html>
